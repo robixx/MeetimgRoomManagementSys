@@ -1,0 +1,37 @@
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.pdb
+*.so
+
+# ---- Virtual Environment ----
+venv/
+.env/
+.env.*       # catches .env.dev, .env.prod, etc.
+
+# ---- FastAPI / Uvicorn ----
+*.log
+
+# ---- Cache & Build ----
+.cache/
+pytest_cache/
+dist/
+build/
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- Migrations (optional) ----
+alembic/versions/*.py
+
+# ---- Python dependency files ----
+*.egg-info/
+*.egg
